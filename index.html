@@ -10,9 +10,8 @@
 
 	<!-- Bootstrap styly -->
 	<!-- Toto je styl stažený ze stránek Bootstrapu a přidaný do složky našeho projektu, ale mohli bychom místo toho mít i styl napojený přímo z CDN v internetu -->
-	<!--
+	
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	-->
 
 	<!-- naše CSS styly -->
 	<link rel="stylesheet" href="css/style.css">
@@ -26,96 +25,146 @@
 
 
 	<!-- Hlavni menu -->
-	<ul>
-		<li><a href="#kadernice">Kadeřnice</a></li>
-		<li><a href="#sluzby">Služby</a></li>
-		<li><a href="#reference">Řekli o nás</a></li>
-		<li><a href="#fotogalerie">Fotogalerie</a></li>
-		<li><a href="#kontakt">Kontakt</a></li>
-	</ul>
-
-
+	
+		
+						<ul>
+							<li>
+								<a href="#kadernice">Kadeřnice</a>
+							</li>
+							<li>
+								<a href="#sluzby">Služby</a>
+							</li>
+							<li>
+								<a href="#reference">Řekli o nás</a>
+							</li>
+							<li>
+								<a href="#fotogalerie">Fotogalerie</a>
+							</li>
+							<li>
+								<a href="#kontakt">Kontakt</a>
+							</li>
+						</ul>
+			</div>
+	
 
 	<!-- Obrazek -->
-	<img src="images/carousel1.jpg" alt="Kadeřnictví">
-
+		
+				<img src="images/carousel1.jpg" alt="Kadeřnictví">
+		
 
 
 	<!-- Akce, novinky -->
-	<h2>Akce -30&nbsp;%</h2>
-	<p>Květen je měsíc vlasů. Přijď ho s námi oslavit a <strong>získej slevu 30&nbsp;%</strong> na všechny naše služby. Ohrom své přátele novým účesem.</p>
-
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h2>Akce -30&nbsp;%</h2>
+			</div>
+			<div class="col-md-8">
+				<p>Květen je měsíc vlasů. Přijď ho s námi oslavit a <strong>získej slevu 30&nbsp;%</strong> na všechny naše služby. Ohrom své přátele novým účesem.</p>
+			</div>
+		</div>
+	</div>
 
 
 	<!-- Kadernice -->
 
-	<h2 id="kadernice">Naše kadeřnice</h2>
-
-	<img src="images/kadernice-helena.jpg" alt="Helena Králíková">
-	<h3>Helena Králíková</h3>
-	<p>Kadeřnice s více než patnáctiletou praxí, jedna ze zakladatelek české kadeřnické akademie. Specialistka na exotické účesy pro zvláštní příležitosti.</p>
-
-	<img src="images/kadernice-eliska.jpg" alt="Eliška Dvořáková">
-	<h3>Eliška Dvořáková</h3>
-	<p>Držitelka několika národních i mezinárodních ocenění, mimo jiné i Kadeřnice roku a Účes roku. Spolupracuje s předními českými i světovými kadeřníky.</p>
-
-	<img src="images/kadernice-jarmila.jpg" alt="Jarmila Prokopová">
-	<h3>Jarmila Prokopová</h3>
-	<p>Specialistka na pánské a dětské střihy se zkušenostmi s česáním módních přehlídek a vlasových show. Certifikovaná odbornice na modeláž nehtů.</p>
-
+	
+	<div class="container">
+		<div class="row">
+			<h2 id="kadernice">Naše kadeřnice</h2>
+			<div class="col-md-4">
+				<img src="images/kadernice-helena.jpg" alt="Helena Králíková">
+				<h3>Helena Králíková</h3>
+				<p>Kadeřnice s více než patnáctiletou praxí, jedna ze zakladatelek české kadeřnické akademie. Specialistka na exotické účesy pro zvláštní příležitosti.</p>
+			</div>
+			<div class="col-md-4">
+				<img src="images/kadernice-eliska.jpg" alt="Eliška Dvořáková">
+				<h3>Eliška Dvořáková</h3>
+				<p>Držitelka několika národních i mezinárodních ocenění, mimo jiné i Kadeřnice roku a Účes roku. Spolupracuje s předními českými i světovými kadeřníky.</p>
+			</div>
+			<div class="col-md-4">
+				<img src="images/kadernice-jarmila.jpg" alt="Jarmila Prokopová">
+				<h3>Jarmila Prokopová</h3>
+				<p>Specialistka na pánské a dětské střihy se zkušenostmi s česáním módních přehlídek a vlasových show. Certifikovaná odbornice na modeláž nehtů.</p>
+			</div>
+		</div>
 	<!-- konec #kadernice -->
 
 
 
 	<!-- Sluzby -->
-
-	<h2 id="sluzby">Služby</h2>
-
-	<img src="images/sluzby-damske.svg" width="100" height="100" alt="Dámské kadeřnictví">
-	<h3>Dámské kadeřnictví</h3>
-	<p>Moderní střihy, barvení vlasů, melírování, přelivy, svatební účesy, večerní účesy, preparace vlasů, trvalé, prodlužování a zhuštění vlasů, prodej připínacích pramenů, poradenství a prodej vlasové kosmetiky.</p>
-
-	<img src="images/sluzby-panske.svg" width="100" height="100" alt="Pánské kadeřnictví">
-	<h3>Pánské kadeřnictví</h3>
-	<p>Střihy, zastřižení, střih strojkem, melírování, barvení vlasů, tonování šedivých vlasů, tvarování gelem, zastřižení vousů a knírů, masáž hlavy, poradenství, prodej vlasové pánské kosmetiky.</p>
-
-	<img src="images/sluzby-kosmetika.svg" width="100" height="100" alt="Kosmetika">
-	<h3>Kosmetika a péče o pleť</h3>
-	<p>Ošetření pleti, masáže obličeje, úprava a barvení řas a obočí, líčení pro všechny příležitosti, depilace, manikůra, poradenství a prodej kosmetiky na domácí péči.</p>
-
-	<table>
-		<tbody>
-			<tr>
-				<td>Dámské stříhání</td>
-				<td>500&ndash;600&nbsp;Kč</td>
-			</tr>
-			<tr>
-				<td>Pánské stříhání</td>
-				<td>200&ndash;300&nbsp;Kč</td>
-			</tr>
-			<tr>
-				<td>Stříhání strojkem</td>
-				<td>80&nbsp;Kč</td>
-			</tr>
-			<tr>
-				<td>Stylování účesu</td>
-				<td>dle náročnosti</td>
-			</tr>
-			<tr>
-				<td>Barvení, melírování</td>
-				<td>350&ndash;500&nbsp;Kč</td>
-			</tr>
-			<tr>
-				<td>Líčení</td>
-				<td>250&nbsp;Kč</td>
-			</tr>
-			<tr>
-				<td>Modeláž nehtů</td>
-				<td>350&nbsp;Kč</td>
-			</tr>
-		</tbody>
-	</table>
-
+	
+	
+	<div class="container">
+		<div class="row">
+			<h2 id="sluzby">Služby</h2>
+			<div class="col-md-6">	
+				<div class="d-flex">
+					<div class="flex-shrink-0">
+						<img src="images/sluzby-damske.svg" width="100" height="100" alt="Dámské kadeřnictví">
+					</div>
+					<div class="flex-grow-1 ms-3">
+						<h3>Dámské kadeřnictví</h3>
+						<p>Moderní střihy, barvení vlasů, melírování, přelivy, svatební účesy, večerní účesy, preparace vlasů, trvalé, prodlužování a zhuštění vlasů, prodej připínacích pramenů, poradenství a prodej vlasové kosmetiky.</p>
+					</div>
+				</div>
+			
+				<div class="d-flex">
+					<div class="flex-shrink-0">
+						<img src="images/sluzby-panske.svg" width="100" height="100" alt="Pánské kadeřnictví">
+					</div>
+					<div class="flex-grow-1 ms-3">
+						<h3>Pánské kadeřnictví</h3>
+						<p>Střihy, zastřižení, střih strojkem, melírování, barvení vlasů, tonování šedivých vlasů, tvarování gelem, zastřižení vousů a knírů, masáž hlavy, poradenství, prodej vlasové pánské kosmetiky.</p>
+					</div>
+				</div>
+		
+				<div class="d-flex">
+					<div class="flex-shrink-0">
+						<img src="images/sluzby-kosmetika.svg" width="100" height="100" alt="Kosmetika">
+					</div>
+					<div class="flex-grow-1 ms-3">
+						<h3>Kosmetika a péče o pleť</h3>
+						<p>Ošetření pleti, masáže obličeje, úprava a barvení řas a obočí, líčení pro všechny příležitosti, depilace, manikůra, poradenství a prodej kosmetiky na domácí péči.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">	
+				<table>
+					<tbody>
+						<tr>
+							<td>Dámské stříhání</td>
+							<td>500&ndash;600&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Pánské stříhání</td>
+							<td>200&ndash;300&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Stříhání strojkem</td>
+							<td>80&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Stylování účesu</td>
+							<td>dle náročnosti</td>
+						</tr>
+						<tr>
+							<td>Barvení, melírování</td>
+							<td>350&ndash;500&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Líčení</td>
+							<td>250&nbsp;Kč</td>
+						</tr>
+						<tr>
+							<td>Modeláž nehtů</td>
+							<td>350&nbsp;Kč</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
 	<!-- konec #sluzby -->
 
 
@@ -124,43 +173,61 @@
 
 	<h2 id="reference">Řekli o nás</h2>
 
-	<img src="images/reference-lucie.jpg" alt="Lucie Nováková">
-	<p>Kadeřnictví Scissors je v Praze prostě nejlepší. Vím to s jistotou, protože normálně mám vlasy jako dikobraz a po ostřihání vypadám vždy jako supermodelka.<br>
-	<em>&mdash; Lucie Nováková</em></p>
-
-	<img src="images/reference-klotilda.jpg" alt="Klotilda Marnotratná">
-	<p>Salón jsem doposud navštívila dvakrát a vždy jsem byla maximálně spokojena s přístupem, prostředím, službami. Děkuji.<br>
-	<em>&mdash; Klotilda Marnotratná</em></p>
-
-	<img src="images/reference-jana.jpg" alt="Jana Vostrá">
-	<p>Helena je mojí kadeřnicí už několik let a dobrý kadeřník se nemění! I přes profesionální služby vás příjemně překvapí velmi dostupná cena.<br>
-	<em>&mdash; Jana Vostrá</em></p>
-
-	<img src="images/reference-libor.jpg" alt="Libor Kohout">
-	<p>Bez čekání, za 30 minut, super ostříhán. Vracím se pravidelně a rád.<br>
-	<em>&mdash; Libor Kohout</em></p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">	
+				<div class="d-flex">
+					<img src="images/reference-lucie.jpg" alt="Lucie Nováková">
+					<p>Kadeřnictví Scissors je v Praze prostě nejlepší. Vím to s jistotou, protože normálně mám vlasy jako dikobraz a po ostřihání vypadám vždy jako supermodelka.<br>
+					<em>&mdash; Lucie Nováková</em></p>
+				</div>
+			</div>
+			<div class="col-md-6">	
+				<div class="d-flex">
+					<img src="images/reference-klotilda.jpg" alt="Klotilda Marnotratná">
+					<p>Salón jsem doposud navštívila dvakrát a vždy jsem byla maximálně spokojena s přístupem, prostředím, službami. Děkuji.<br>
+					<em>&mdash; Klotilda Marnotratná</em></p>
+				</div>
+			</div>
+			<div class="col-md-6">	
+				<div class="d-flex">
+					<img src="images/reference-jana.jpg" alt="Jana Vostrá">
+					<p>Helena je mojí kadeřnicí už několik let a dobrý kadeřník se nemění! I přes profesionální služby vás příjemně překvapí velmi dostupná cena.<br>
+					<em>&mdash; Jana Vostrá</em></p>
+				</div>
+			</div>
+			<div class="col-md-6">	
+				<div class="d-flex">
+					<img src="images/reference-libor.jpg" alt="Libor Kohout">
+					<p>Bez čekání, za 30 minut, super ostříhán. Vracím se pravidelně a rád.<br>
+					<em>&mdash; Libor Kohout</em></p>
+				</div>
+			</div>
 
 	<!-- konec #reference -->
 
 
 
 	<!-- Fotogalerie -->
-
-	<h2 id="fotogalerie">Fotogalerie</h2>
-
-	<img src="images/foto01.jpg" alt="Foto 01">
-	<img src="images/foto02.jpg" alt="Foto 02">
-	<img src="images/foto03.jpg" alt="Foto 03">
-	<img src="images/foto04.jpg" alt="Foto 04">
-	<img src="images/foto05.jpg" alt="Foto 05">
-	<img src="images/foto06.jpg" alt="Foto 06">
-	<img src="images/foto07.jpg" alt="Foto 07">
-	<img src="images/foto08.jpg" alt="Foto 08">
-	<img src="images/foto09.jpg" alt="Foto 09">
-	<img src="images/foto10.jpg" alt="Foto 10">
-	<img src="images/foto11.jpg" alt="Foto 11">
-	<img src="images/foto12.jpg" alt="Foto 12">
-
+	<div class="container-fluid">
+		<div class="row no-gutters">
+			<h2 id="fotogalerie">Fotogalerie</h2>
+			<div class="col-xxl-3">
+				<img src="images/foto01.jpg" alt="Foto 01">
+				<img src="images/foto02.jpg" alt="Foto 02">
+				<img src="images/foto03.jpg" alt="Foto 03">
+				<img src="images/foto04.jpg" alt="Foto 04">
+				<img src="images/foto05.jpg" alt="Foto 05">
+				<img src="images/foto06.jpg" alt="Foto 06">
+				<img src="images/foto07.jpg" alt="Foto 07">
+				<img src="images/foto08.jpg" alt="Foto 08">
+				<img src="images/foto09.jpg" alt="Foto 09">
+				<img src="images/foto10.jpg" alt="Foto 10">
+				<img src="images/foto11.jpg" alt="Foto 11">
+				<img src="images/foto12.jpg" alt="Foto 12">
+			</div>
+		</div>
+	</div>
 	<!-- konec #fotogalerie -->
 
 
@@ -238,9 +305,8 @@
 
 	<!-- Volitelný JavaScript (nutný pro aktivní komponenty) -->
 	<!-- Toto je JavaScript stažený ze stránek Bootstrapu a přidaný do složky našeho projektu, ale mohli bychom místo toho mít i skript napojený přímo z CDN v internetu -->
-	<!--
+	
 	<script src="js/bootstrap.bundle.min.js"></script>
-	-->
 
 </body>
 </html>
